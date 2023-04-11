@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ordinarypaths.css">
+    <script defer src="ordinarypaths.js"></script>
+    <title>Ordinary Paths</title>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="main-nav-logo">
+                <img id="logo-img" src="" alt="Ordinary Paths Logo">
+                <div class="logo-slogan">
+                    <h3 id="slogan-line1">ORDINARY PATHS</h3>
+                    <p id="slogan-line2">Web Design & App Development</p>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="">Home</a>
+                <a href="">Projects</a>
+                <a href="">Services</a>
+                <a href="">Contact Us</a>
+                <img id="hamburger-img" src="./hamburgermenu.png" alt="Hamburger Menu">
+            </div>
+        </nav>
+    </header>
+
+    <!-- side-menu ----------------------->
+    <aside class="side-menu" id="side-menu-page">
+        <header class="side-menu-header">
+            <img id="logo-img" src="" alt="Ordinary Paths Logo">
+            <img id="menu-close" src="./cross.png" alt="Close this menu">
+        </header>
+        <div class="side-menu-content">
+            <a href="">About Us</a>
+            <a href="">Projects</a>
+            <a href="">Services</a>
+            <a href="">Contact Us</a>
+        </div>
+
+    </aside>
+
+    <!-- main content ------------------------------------>
+    <main>
+        <section class="main-img">
+            <div class="main-discription">
+                <h1>Web Design & App Development</h1>
+                <p>Our people in Ordinary Paths are a group of energetic and innovative IT professionals, who are keen to helping people with their needs in customised wed design and building up software applications on mobile, by providing our professional software advice and practice.</p>
+                <div class="buttons">
+                    <button id="button1">Learn More</button>
+                    <button id="button2">Contact Us</button>
+
+                </div>   
+            </div>
+        </section>
+
+        <section class="projects">
+            <h1>Our Projects</h1>
+            <div class="project-pic-container">
+                <img src="./project-pic1.jpeg" alt="Project 1" id="project-img">
+                <div class="pic-change-btns">
+                    <button id="page-down">&lsaquo;</button>
+                    <button id="page-up">&rsaquo;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <h1>Our Services</h1>
+            <div class="show-services">
+                <div class="single-service" >
+                    <img class="icons" src="./customiseddesign.png" alt="">
+                    <h3>Customised Design</h3>
+                    <p>We design customised website customised website customised website customised website customised website</p>
+                </div>
+                <div class="single-service">
+                    <img class="icons" src="./responsive.png" alt="">
+                    <h3>Responsive Website</h3>
+                    <p>responsive design responsive design responsive design responsive design responsive design</p>
+                </div>
+                <div class="single-service">
+                    <img class="icons" src="./appdevelopment.png" alt="">
+                    <h3>App Development</h3>
+                    <p>app development app development app development app development app development app development</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="form-section">
+            <div class="registraion-form">
+                <div class="form-discription">
+                    <h3>Enquire for a hassle free chat</h3>
+                    <p>Ordinary Paths specialise in custom designed, high ranking, lead generating fast loading Google friendly websites. It does not matter if you are a plumber, electrician, builder, caterer, lawyer, hairdresser or any other industry, we will help your business make more money.</p>
+                    <p>Get in contact with one of our friendly team members for a hassle free chat. Find out how we can help your business grow.</p>
+                    <h4>Call us 0433999888</h4>
+                </div>
+                <form action="" class="regi-form">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="full-name" id="name" required minlength="2" maxlength="20">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="text" name="phone-number" id="phone-number" required minlength="10" maxlength="10">
+                    <label for="email">Email Address</label>
+                    <input type="text" name="email" id="email" required minlength="2">
+                    <label for="select-state">State</label>
+                    <select name="select-state" class="select-state" id="select-state" required>
+                        <option value="" disabled selected>Select State</option>
+                        <option value="act">Australian Capital Territory</option>
+                        <option value="nsw">New South Wales</option>
+                        <option value="nt">Northern Territory</option>
+                        <option value="qld">Queensland</option>
+                        <option value="sa">South Australia</option>
+                        <option value="tas">Tasmania</option>
+                        <option value="vic">Victoria</option>
+                        <option value="wa">Western Australia</option>
+                    </select>
+                    <label for="heard-about-us">How you heard about us?</label>
+                    <select name="heard-about-us" id="heard-about-us" required>
+                        <option value="" disabled selected>Select Option</option>
+                        <option value="fb">Facebook</option>
+                        <option value="ins">Instagram</option>
+                        <option value="radio">Radio</option>
+                        <option value="flyer">Flyer/Magzine</option>
+                        <option value="google">Google/Yahoo/Bing</option>
+                        <option value="referral">Referral</option>
+                        <option value="wb">Webside designed by Ordinary Paths</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="requirements">Tell us briefly about your business, and website requirements</label>
+                    <textarea name="requirements" id="requirements" required></textarea>
+                    <button>GO!</button>
+                    <p id="privacy">Your privacy is important to us. We will never share your information.</p>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="bottom">
+            <h4>Our Services</h4>
+            <div class="footer-links">
+                <button><a href="">Customised Design</a></button>
+                <button><a href="">Responsive Website</a></button>
+                <button><a href="">App Development</a></button>
+            </div>
+            <p>Contact Us 0433999888</p>
+        </div>
+    </footer>
+</body>
+</html>
