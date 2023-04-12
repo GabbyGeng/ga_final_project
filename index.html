@@ -101,9 +101,9 @@
                     <label for="name">Full Name</label>
                     <input type="text" name="full-name" id="name" required minlength="2" maxlength="20">
                     <label for="phone-number">Phone Number</label>
-                    <input type="text" name="phone-number" id="phone-number" required minlength="10" maxlength="10">
+                    <input type="tel" pattern="[0][4][0-9]{8}" name="phone-number" id="phone-number" required minlength="10" maxlength="10">
                     <label for="email">Email Address</label>
-                    <input type="text" name="email" id="email" required minlength="2">
+                    <input type="email" name="email" id="email" required minlength="6">
                     <label for="select-state">State</label>
                     <select name="select-state" class="select-state" id="select-state" required>
                         <option value="" disabled selected>Select State</option>
