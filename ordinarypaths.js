@@ -14,10 +14,10 @@ const pageDown = document.querySelector('#page-down');
 const pageUp = document.querySelector('#page-up');
 
 const projectImgs = [
-  './project-pic1.jpeg',
-  './project-pic2.jpeg',
-  './project-pic3.jpeg',
-  './project-pic4.jpeg',
+  'images/project-pic1.jpeg',
+  'images/project-pic2.jpeg',
+  'images/project-pic3.jpeg',
+  'images/project-pic4.jpeg',
 ];
 
 let currentImgIndex = 0;
