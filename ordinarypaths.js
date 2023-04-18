@@ -41,3 +41,12 @@ function changePageUp () {
 pageDown.addEventListener('click', changePageDown);
 pageUp.addEventListener('click', changePageUp);
 
+const submitForm = document.querySelector('.regi-form');
+const thanksBox = document.querySelector('.thanks-box');
+
+function submitFormHandler (event) {
+    event.preventDefault();
+    thanksBox.classList.add('thanks-box-show')
+}
+
+submitForm.addEventListener('submit', submitFormHandler);
